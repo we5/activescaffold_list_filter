@@ -1,4 +1,4 @@
-class ActionView::TemplateFinder
+class ActionController::Base
 
   # Returns the view path that contains the relative template
   def find_generic_base_path_for_with_list_filter(template_file_name, extension)
